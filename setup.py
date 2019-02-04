@@ -106,7 +106,7 @@ setup(
     url='https://github.com/zalando/connexion',
     keywords='openapi oai swagger rest api oauth flask microservice framework',
     license='Apache License Version 2.0',
-    setup_requires=['flake8'],
+    setup_requires=['flake8<=3.7.3'],
     install_requires=install_requires + [flask_require],
     tests_require=tests_require,
     extras_require={
